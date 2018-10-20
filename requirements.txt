@@ -1,3 +1,2 @@
-pkg-resources==0.0.0
 -e git://github.com/d2emon/pydice.git@1bfb0df199a329495e915b5abfdd8b956f9f9b39#egg=pydice
 PyYAML==3.12

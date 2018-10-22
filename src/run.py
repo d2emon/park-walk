@@ -1,21 +1,7 @@
-class Player:
-    strength = 0
-    stamina = 0
-    luck = 0
-    damage = 0.1
-    money = 15
-    food = 0
-    items = []
-
-    def roll(self):
-        import dice
-
-        self.strength = dice.d(1, 6)
-        self.stamina = dice.d(1, 6)
-        self.luck = dice.d(1, 6)
+from game_character import GameCharacter
 
 
-player = Player()
+player = GameCharacter()
 
 
 def load_point(id=0):
